@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="800">
+    <Grid x:Name="Back">
+        <Slider x:Name="sliderR" HorizontalAlignment="Left" Margin="256,92,0,0" VerticalAlignment="Top" Width="398" Height="21" Maximum="255" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" />
+        <Slider x:Name="sliderG" HorizontalAlignment="Left" Margin="256,142,0,0" VerticalAlignment="Top" Width="398" Height="21" Maximum="255" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged_1" />
+        <Slider x:Name="sliderB" HorizontalAlignment="Left" Margin="256,192,0,0" VerticalAlignment="Top" Width="398" Height="21" Maximum="255" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged_2" />
+        <Label Content="R" HorizontalAlignment="Left" Margin="210,77,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="G" HorizontalAlignment="Left" Margin="210,127,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="210,177,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="labelR" Content="Label" HorizontalAlignment="Left" Margin="659,80,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="labelG" Content="Label" HorizontalAlignment="Left" Margin="659,130,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="labelB" Content="Label" HorizontalAlignment="Left" Margin="659,180,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <GroupBox HorizontalAlignment="Left" Height="146" Header="Color Type" Margin="41,71,0,0" VerticalAlignment="Top" Width="132" BorderBrush="#FFC1AFFF" Foreground="Gray"/>
+        <RadioButton x:Name="btnOriginal" Content="Original" HorizontalAlignment="Left" Margin="63,109,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" IsChecked="True" Foreground="Gray"/>
+        <RadioButton x:Name="btnGray" Content="Gray Tone" HorizontalAlignment="Left" Margin="63,143,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1" Foreground="Gray"/>
+        <RadioButton x:Name="btnInvert" Content="Invert" HorizontalAlignment="Left" Margin="63,176,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2" Foreground="Gray"/>
+
+    </Grid>
+</Window>
