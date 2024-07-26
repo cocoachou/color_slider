@@ -1,3 +1,10 @@
-# color_slider
+# Color Slider
 
-![image](https://github.com/user-attachments/assets/8966ab3a-565c-4786-b827-3b8efe8e4b25)
+### Original
+<img src="https://github.com/user-attachments/assets/8e25d1c1-8177-4c5a-bcad-b1e659577184" width="70%" height="auto">
+
+### Gray Tone
+<img src="https://github.com/user-attachments/assets/b9996772-a381-4081-a46f-0f7134b971e2" width="70%" height="auto">
+
+### Invert
+<img src="https://github.com/user-attachments/assets/131d1963-f922-4723-8e92-64de5e91a88b" width="70%" height="auto">
