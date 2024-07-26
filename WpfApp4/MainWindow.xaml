@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="800">
+        Title="Color Slider" Height="300" Width="800">
     <Grid x:Name="Back">
         <Slider x:Name="sliderR" HorizontalAlignment="Left" Margin="256,92,0,0" VerticalAlignment="Top" Width="398" Height="21" Maximum="255" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" />
         <Slider x:Name="sliderG" HorizontalAlignment="Left" Margin="256,142,0,0" VerticalAlignment="Top" Width="398" Height="21" Maximum="255" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged_1" />
